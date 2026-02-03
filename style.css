@@ -1,0 +1,49 @@
+/* Blank stylesheet */
+
+body { /* Page background and default font */
+	background-color: #cfe8d4; /* Soft green page background */
+	font-family: Arial, sans-serif; /* Simple, readable font */
+	margin: 0; /* Remove default body margin */
+} /* End body styles */
+
+.profile-card { /* Profile card container */
+	background-color: #ffffff; /* White card background */
+	border: 2px solid #2f5d3a; /* Dark green card border */
+	padding: 24px; /* Inner spacing for card content */
+	max-width: 520px; /* Limit card width */
+	margin: 40px auto; /* Center card with outer spacing */
+	text-align: center; /* Center text inside card */
+} /* End profile card styles */
+
+h1 { /* Main heading */
+	font-size: 40px; /* Large name size */
+	margin: 0 0 8px; /* Space below the name */
+} /* End h1 styles */
+
+h2 { /* Subheading */
+	font-size: 24px; /* Medium role size */
+	margin: 0 0 16px; /* Space below the role */
+} /* End h2 styles */
+
+p { /* Paragraph text */
+	font-size: 18px; /* Readable body size */
+	line-height: 1.6; /* Comfortable line spacing */
+	margin: 0; /* Remove default paragraph margin */
+} /* End paragraph styles */
+
+img { /* Profile image */
+	width: 140px; /* Set image width */
+	height: auto; /* Keep image proportions */
+	border-radius: 50%; /* Make the image circular */
+	margin-bottom: 16px; /* Space below image */
+} /* End image styles */
+
+ul { /* List container */
+	list-style: none; /* Remove bullet points */
+	padding: 0; /* Remove default left padding */
+	margin: 16px 0 0; /* Add spacing above list */
+} /* End list container styles */
+
+li { /* List items */
+	margin: 8px 0; /* Add vertical spacing between items */
+} /* End list item styles */
