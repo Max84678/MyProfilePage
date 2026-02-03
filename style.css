@@ -2,28 +2,49 @@
 
 body { /* Page background and default font */
 	background-color: #cfe8d4; /* Soft green page background */
-	font-family: Arial, sans-serif; /* Simple, readable font */
+	font-family: "Courier New", Courier, monospace; /* Courier New font stack */
 	margin: 0; /* Remove default body margin */
 } /* End body styles */
 
-.profile-card { /* Profile card container */
-	background-color: #ffffff; /* White card background */
+.profile-header { /* Header section with full-width border */
+	background-image: url("img/code_background.jpg"); /* Header background image */
+	background-size: cover; /* Scale image to cover the header */
+	background-position: center; /* Center the background image */
+	border: 2px solid #1f4d2c; /* Dark green full-width border */
+	margin: 40px 0 0; /* Space at top like before */
+	padding: 24px; /* Inner spacing for header content */
+	text-align: center; /* Center header text */
+} /* End profile header styles */
+
+.profile-details { /* Details section container */
+	background-color: #2f5d3a; /* Dark green details background */
 	border: 2px solid #2f5d3a; /* Dark green card border */
-	padding: 24px; /* Inner spacing for card content */
-	max-width: 520px; /* Limit card width */
-	margin: 40px auto; /* Center card with outer spacing */
-	text-align: center; /* Center text inside card */
-} /* End profile card styles */
+	padding: 24px; /* Inner spacing for details content */
+	max-width: none; /* Expand details to full width */
+	margin: 0 0 40px; /* Touch header border and keep bottom spacing */
+	text-align: center; /* Center text inside details */
+	color: #ffffff; /* Make all text white in details */
+} /* End profile details styles */
+
+.profile-details a { /* Links inside details */
+	color: #ffffff; /* Make link text white */
+} /* End details link styles */
 
 h1 { /* Main heading */
 	font-size: 40px; /* Large name size */
 	margin: 0 0 8px; /* Space below the name */
+	color: #ffffff; /* White heading text */
 } /* End h1 styles */
 
 h2 { /* Subheading */
 	font-size: 24px; /* Medium role size */
 	margin: 0 0 16px; /* Space below the role */
+	color: #ffffff; /* White subheading text */
 } /* End h2 styles */
+
+.about-heading { /* About heading */
+	margin: 0 0 8px; /* Reduce space below heading */
+} /* End about heading styles */
 
 p { /* Paragraph text */
 	font-size: 18px; /* Readable body size */
@@ -35,6 +56,7 @@ img { /* Profile image */
 	width: 140px; /* Set image width */
 	height: auto; /* Keep image proportions */
 	border-radius: 50%; /* Make the image circular */
+	border: none; /* Remove image border */
 	margin-bottom: 16px; /* Space below image */
 } /* End image styles */
 
